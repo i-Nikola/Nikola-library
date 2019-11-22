@@ -78,6 +78,7 @@ p{
     background-size: cover;
     /*Jumbotron radius border */
     border-radius: 0;
+
 }
 
 #c{
@@ -115,7 +116,22 @@ p{
     padding-right: 20px;
 
 }
+#o{
+    /* The image used */
+    background-image: url('Company-logo-1.jpg');
 
+    /* Set a specific height */
+    height: 135px;
+    width: 150px;
+    /* Circular image */
+    border-radius: 50%;
+}
+#o-1{
+    /* Font */
+    font-family: "Calibri";
+    font-style: italic;
+    text-shadow: 1.5px 2.5px black;
+}
 </style>
 
 <!-- Video parallax <style> tag -->
@@ -172,7 +188,7 @@ height: 35vh;
 <div id="a" class="jumbotron">
     <div class="welcome">
             <h6 class="display-3" style="color:royalblue"> Dobrodosli u nasu radnju: </h6>
-            <h6 class="display-1" style="color:royalblue"> Domace  </h6>
+            <h6 class="display-1" style="color:royalblue" > Domace  </h6>
     </div>
 </div>
 
@@ -190,42 +206,45 @@ height: 35vh;
                 <h3 class="display-6" style="color: #FFCC99"> Zato sve suhomesnate proizvode narucujemo sa raznih podrucja Srbije: </h3>
 
                 <h6 class="display-4" style="color: #229954;"> Zlatibora, Pestera, Stare Planine... </h6>
-
                 <p></p>
                 <h3 class="display-6" style="color: #FFCC99"> Za nase ljude, ulozili smo vreme da nadjemo najbolje i najkvalitetnije. </h3>
                 <h3 class="display-6" style="color: #FFCC99"> Nudimo najkvalitetnije proizvode. </h3>
                 <h3 class="display-6" style="color: #FFCC99"> Zelimo da se uverite i pocnete da se hranite: </h3>
                 <h3 class="display-6" style="color: #FFCC99"> " najzdravijom, najukusnijom, domacom hranom " </h3>
+
 </div>
 
-    <div class="d-flex justify-content-around align-items-start flex-column">
-            <div class="videocontainer">
-                    <video autoplay loop muted poster="screenshot.jpg" id="background">
-                        <source src="https://bufiles.blob.core.windows.net/co3615/video/explore.webm">
-                    </video>
-                    </div>
+
+    <!-- Jumbotron video + logo + <h6> -->
+    <div class="jumbotron d-flex justify-content-center align-items-center flex-column" style="background-color:transparent">
+
+        <div class="videocontainer">
+            <video autoplay loop muted poster="screenshot.jpg" id="background">
+                <source src="https://bufiles.blob.core.windows.net/co3615/video/explore.webm">
+            </video>
+
+    <!-- Logo -->
+            <div id="o" class="container justify-content-center flex-column"> </div>
+    <!-- <h6> -->            
+            <a href="Kontakt.html"> <h6 id="o-1" class="display-1" style="color:royalblue"> Prodavnica </h6> </a>
+        </div>
+
     </div>
-    
+
 
 </div>
+
 
 <!--Galerija-->
 <div id="c" class="jubmbotron">
-        <h6 class="display-1" style="color:royalblue"> Galerija </h6>
-        <h3 class="display-6" style="color: #FFCC99">  Pozivamo Vas da pogledate galeriju proizvoda zdrave hrane "domace". </h3>
-        <p></p> 
-        <button type="button" class="btn btn-info"><a href="#"></a>Galerija</button>
-</div>
-    
-<!-- Video parallax -->
+
+    <h6 class="display-1" style="color:royalblue"> Galerija </h6>
+    <h3 class="display-6" style="color: #FFCC99">  Pozivamo Vas da pogledate galeriju proizvoda zdrave hrane "domace". </h3>
+    <p></p> 
+    <button type="button" class="btn btn-primary"><a href="#"></a>Galerija</button>
 
 </div>
-
-</div>
-
-</div>
-
-
 
 </body>
+
 </html>
