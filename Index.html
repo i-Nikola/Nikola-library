@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Index</title>
+
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- Bootstrap, Jquery, Javascript, Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+    <script>
+            // object-fit polyfill run
+            objectFitImages();
+
+            /* init Jarallax */
+            jarallax(document.querySelectorAll('.jarallax'));
+
+            jarallax(document.querySelectorAll('.jarallax-keep-img'), {
+                keepImg: true,
+            });
+    </script>
+
+<style>
+    
+
+body{
+    margin:0;
+    background-color: #101010;
+    padding-left:20px;
+    padding-right:20px;
+    font-family: calibri;
+}
+p{
+    color: #101010;
+}
+
+#a {
+    /* The image used */
+    background-image: url('Background-food-3.jpg');
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    /*Jumbotron radius border */
+    border-radius: 0;
+}
+#b{
+    border-radius: 0;
+    background-color: #101010;
+    font-style: italic;
+    text-shadow: 1.5px 2.5px black;
+    display:flex;
+    justify-content: space-around;
+}
+#c{
+    /* The image used */
+    background-image:url('Background-food-3.jpg');    /* Set a specific height */
+    height: 450px;
+    padding-top:100px;
+    text-align: center;
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    /*Jumbotron radius border */
+    border-radius: 0;  
+    
+    /*Content position*/
+    text-align: center;
+    text-shadow: 1.5px 2.5px #101010;
+}
+#ul-a{
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.container {
+    position: relative;
+    text-align: left;
+    padding-left: 200 px;
+    font-size:x-large;
+}
+.welcome{
+
+    padding-top: 50px;
+    color:royalblue;
+    text-shadow: 1.5px 2.5px #101010;
+    text-align: center;
+}
+.main{
+    position: right
+
+}
+
+</style>
+
+<style> /* Video parallax */
+#background {
+
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url("https://bufiles.blob.core.windows.net/co3615/slide/overlay.png");
+    background-size: cover;
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    /*Jumbotron radius border */
+    border-radius: 0;
+}
+.videocontainer {
+height: 35vh;
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<!--Navigacija (ponuda) -->
+
+      <ul id="ul-a" style="background-color: #101010;" class="nav nav-tabs navbar-transparent fixed-top">
+            <li class="nav-item">
+              <a class="nav-link" href="#!">Pocetna</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown"
+                 href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                 Dropdown</a>
+              <div class="dropdown-menu">Galerija
+                <a class="dropdown-item" href="#!">Action</a>
+                <a class="dropdown-item" href="#!">Another action</a>
+              </div>
+            </li>
+          </ul>
+
+
+<!-- Dobrodosli: -->    
+<div id="a" class="jumbotron">
+    <div class="welcome">
+            <h6 class="display-3" style="color:royalblue"> Dobrodosli u nasu radnju: </h6>
+            <h6 class="display-1" style="color:royalblue"> Domace  </h6>
+    </div>
+</div>
+
+<!--O nama:-->
+
+<div class="d-flex justify-content-around align-items-start flex-row ">
+
+
+<div id="b" class="d-flex justify-content-around align-items-start flex-column">
+
+                <h6 class="display-1" style="color:royalblue"> ” Domace “ </h6>
+    
+                <h3 class="display-6" style="color: #FFCC99"> Domace je prodavnica zdrave hrane. </h3>
+                <h3 class="display-6" style="color: #FFCC99"> Kvalitet koji pruzamo nam je najvazniji. </h3>
+                <h3 class="display-6" style="color: #FFCC99"> Zato sve suhomesnate proizvode narucujemo sa raznih podrucja Srbije: </h3>
+
+                <h6 class="display-4" style="color: #229954;"> Zlatibora, Pestera, Stare Planine... </h6>
+
+                <p></p>
+                <h3 class="display-6" style="color: #FFCC99"> Za nase ljude, ulozili smo vreme da nadjemo najbolje i najkvalitetnije. </h3>
+                <h3 class="display-6" style="color: #FFCC99"> Nudimo najkvalitetnije proizvode. </h3>
+                <h3 class="display-6" style="color: #FFCC99"> Zelimo da se uverite i pocnete da se hranite: </h3>
+                <h3 class="display-6" style="color: #FFCC99"> " najzdravijom, najukusnijom, domacom hranom " </h3>
+</div>
+
+    <div class="d-flex justify-content-around align-items-start flex-column">
+            <div class="videocontainer">
+                    <video autoplay loop muted poster="screenshot.jpg" id="background">
+                        <source src="https://bufiles.blob.core.windows.net/co3615/video/explore.webm">
+                    </video>
+                    </div>
+    </div>
+    
+
+</div>
+
+<!--Galerija-->
+<div id="c" class="jubmbotron">
+        <h6 class="display-1" style="color:royalblue"> Galerija </h6>
+        <h3 class="display-6" style="color: #FFCC99">  Pozivamo Vas da pogledate galeriju proizvoda zdrave hrane "domace". </h3>
+        <p></p> 
+        <button type="button" class="btn btn-info"><a href="#"></a>Galerija</button>
+</div>
+    
+<!-- Video parallax -->
+
+</div>
+
+</div>
+
+</div>
+
+
+
+</body>
+</html>
