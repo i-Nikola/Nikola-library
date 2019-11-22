@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> github navigation </title>
+</head>
+<body>
+<!-- Initializing a new repository: git init -->
+    <!-- git ls (pokazuje lokaciju gde si)-->
+    <!-- cd <location> (dovedi do zeljene lokacije)-->
+    <!-- git ls (pogledaj sta ima, da li je pushovano-->
+
+    
+<!-- Cloning an existing repository: git clone -->
+    <!-- cd /path/to/your/existing/code git init -->
+    <!-- git init <project directory> (lokalno gde se nalazi) -->
+
+
+<!-- Cloning an existing repository: git clone -->
+    <!-- git clone <repo url> (klonira podatke na local)-->
+
+
+<!-- Saving changes to the repository: git add and git commit -->
+    <!-- git add . (updajtuje sve podatke unutar raposatory-a -->
+    <!-- git commit -m "comment" (Posvecuje podatke serveru uz komentar)-->
+    <!-- git push (sve podatke gura na master, online origin server -->
+    
+
+<!-- Configuration & set up: git config -->
+    <!-- git remote add <remote_name> <remote_repo_url>-->
+        <!-- Vezuje Local i Origin/Master.git -->
+    <!-- git push -u <remote_name> <local_branch_name>-->
+        <!-- Prosledjuje sve promene na sverver-->
+
+
+<!-- Set Username and Password in Remote URL: -->
+        <!-- $ git clone https://<USERNAME>:<PASSWORD>@github.com/path/to/repo.git -->
+            <!--The username and password will be stored in .git/config file as a part of the remote repository URL.-->
+
+<!-- Save Username and Password in Git Credentials Storage -->
+    <!--$ git config credential.helper store -->
+        <!--To enable credentials storage globally, run: -->
+    <!--$ git config --global credential.helper store-->
+        <!--When credentials storage is enabled, the first time you pull or push from the remote Git repository, you will be asked for a username and password, and they will be saved in ~/.git-credentials file.-->
+        <!--During the next communications with the remote Git repository you won’t have to provide the username and password.-->
+        <!--Each credential in ~/.git-credentials file is stored on its own line as a URL like:-->
+            <!--https://<USERNAME>:<PASSWORD>@github.com-->
+
+<!--Config Username and Password for Different Repositories -->
+    <!--To be able to configure usernames and passwords for different Git repositories on the same Git server you can enable the useHttpPath option.-->
+    <!--By default, Git does not consider the “path” component of an http URL to be worth matching via external helpers. This means that a credential stored for https://example.com/foo.git will also be used for https://example.com/bar.git. If you do want to distinguish these cases, set useHttpPath option to true-->
+
+<!--Run the following commands to configure Git credentials storage and separate credentials for different repositories on github.com:-->    
+    <!--$ git config --global credential.helper store-->    
+    <!--$ git config --global credential.github.com.useHttpPath true-->    
+<!--The usernames and passwords for different GitHub repositories will be stored in ~/.git-credentials file separately on their own lines:-->    
+<!--https://<USERNAME>:<PASSWORD>@github.com/path/to/repo1.git-->    
+<!--https://<USERNAME>:<PASSWORD>@github.com/path/to/repo2.git-->    
+    
+    
+    
+
+<!--
+
+.gitignore
+
+Da dodam fajlove i tekstovane fajlove gde pisem putanje da git ignorise
+
+git add . ( ne dodaje fajl unutar .gitignore )
+
+    -->
+
+
+    <!--Username, email,:-->
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+
+
+
+
+
+</body>
+</html>

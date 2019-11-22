@@ -31,7 +31,6 @@
 
 <style>
     
-
 body{
     margin:0;
     background-color: #101010;
@@ -39,9 +38,31 @@ body{
     padding-right:20px;
     font-family: calibri;
 }
+.container {
+    position: relative;
+    text-align: left;
+    padding-left: 200 px;
+    font-size:x-large;
+}
+.welcome{
+
+    padding-top: 50px;
+    color:royalblue;
+    text-shadow: 1.5px 2.5px #101010;
+    text-align: center;
+}
+.main{
+    position: right
+
+}
 p{
     color: #101010;
 }
+
+</style>
+
+<!--Image parallax #a, #c-->
+<style>
 
 #a {
     /* The image used */
@@ -58,14 +79,7 @@ p{
     /*Jumbotron radius border */
     border-radius: 0;
 }
-#b{
-    border-radius: 0;
-    background-color: #101010;
-    font-style: italic;
-    text-shadow: 1.5px 2.5px black;
-    display:flex;
-    justify-content: space-around;
-}
+
 #c{
     /* The image used */
     background-image:url('Background-food-3.jpg');    /* Set a specific height */
@@ -86,32 +100,26 @@ p{
     text-align: center;
     text-shadow: 1.5px 2.5px #101010;
 }
+
+#b{
+    border-radius: 0;
+    background-color: #101010;
+    font-style: italic;
+    text-shadow: 1.5px 2.5px black;
+    display:flex;
+    justify-content: space-around;
+}
+
 #ul-a{
     padding-left: 20px;
     padding-right: 20px;
 
 }
-.container {
-    position: relative;
-    text-align: left;
-    padding-left: 200 px;
-    font-size:x-large;
-}
-.welcome{
-
-    padding-top: 50px;
-    color:royalblue;
-    text-shadow: 1.5px 2.5px #101010;
-    text-align: center;
-}
-.main{
-    position: right
-
-}
 
 </style>
 
-<style> /* Video parallax */
+<!-- Video parallax <style> tag -->
+<style> 
 #background {
 
     -webkit-transform: translateX(-50%) translateY(-50%);
