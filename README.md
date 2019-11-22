@@ -1,3 +1,5 @@
 # i-Nikola/library-exercises
-Library-m-0001-samo-domace (master-file)
-Library-e-0001-samo-domace (editing-file)
+Library-exercises / README.md 
+Library-exercises (master-origin)
+Library-m-0001-samo-domace (master-repository)
+Library-e-0001-samo-domace (editing-repository)
